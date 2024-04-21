@@ -1,0 +1,202 @@
+/* Global */
+
+body {
+    font: 15px/1.5 Arial, Halvetica, Sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+button {
+    height: 38px;
+    background: #e8c547;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+button a {
+    color: #000000;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    position: fixed;
+    background: #99a5b1;
+    width: 100%;
+    padding-top: 0px;
+    min-height: 70px;
+    z-index: 100000;
+}
+
+header.sticky {
+    background: rgba(16, 16, 16, 80%);
+}
+
+header.sticky a {
+    color: #ffffff;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+header a:hover {
+    font-weight: bold;
+    border-bottom: 3px solid #e8c547;
+    padding-bottom: 3px;
+
+}
+
+header.sticky {
+    background: rgba(16, 16, 16, 80%);
+}
+
+header.sticky a {
+
+    color: #ffffff;
+}
+
+/* Showcase */
+#Showcase {
+    background: url("../Images/Rectangle\ 1.png") no-repeat;
+    margin-bottom: 30px;
+}
+
+#Showcase .row {
+    height: 750px;
+}
+
+#Showcase h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#Showcase p {
+    color: #ffffff;
+    margin: 0;
+}
+
+#About {
+    text-decoration-color: #99a5b1;
+}
+
+#About .container h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -25px;
+}
+
+#About .container p {
+    font-size: 20px;
+}
+
+/* Services */
+#Services {
+    background: #99a5b1;
+    margin-top: 30px;
+}
+
+#Services .container img{
+    width: 300px;
+}
+
+/* Contact Form */
+#Contact .container {
+    background: #707070;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 20px;
+}
+
+#Contact .container h1 {
+    font-size: 35px;
+    margin: 0;
+    color: #ffffff;
+}
+
+#Contact .container h5 {
+    font-size: 15px;
+    margin: 0;
+    color: #ffffff;
+}
+
+#Contact .container input {
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+footer {
+    background: #364f53;
+    padding: 10px 0;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}
+
+footer p {
+    margin-top: 5px;
+    padding-top: 0;
+}
+
+footer .container .services {
+    padding-left: 100px;
+}
+
+footer .container img {
+    width: 25px;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width:770px){
+    footer .container .services{
+        padding-left: 15px;
+    }
+}
+
+@media(min-width:771px){
+    footer .container .services{
+        padding-left: 30px;
+    }
+}
+
+@media(min-width:990px){
+    footer .container .services{
+        padding-left: 80px;
+    }
+}
